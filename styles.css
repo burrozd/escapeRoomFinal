@@ -1,0 +1,1034 @@
+body {
+    margin: 0px;
+}
+
+.nav {
+    /* grid-area: Nav; */
+    width: 100%;
+    height: 216px;
+    left: 0px;
+    top: 0px;
+    background: #011827;
+}
+
+.nav-logo {
+    position: relative;
+    top: 30px;
+    left: 30px;
+}
+
+.nav-logo-text {
+    position: absolute;
+    top: 75px;
+    left: 40px;
+}
+
+.navbar {
+    display: flex;
+    position: relative;
+    top: 36px;
+    left: 330px;
+    margin-top: 0px;
+    margin-bottom: -10px;
+    justify-content: space-evenly;
+    width: 1000px;
+}
+
+.nav h1 {
+    position: relative;
+    bottom: 20px;
+    left: 179px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 41px;
+    line-height: 47px;
+    text-align: center;
+    color: #ffffff;
+    margin: 0px;
+    width: 400px;
+}
+
+.navbar a {
+    color: white;
+    list-style-type: none;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #8acfe5;
+}
+
+.navbar li {
+    list-style-type: none;
+}
+
+
+/* main image */
+
+.img-container {
+    width: 1680px;
+}
+
+.main-img {
+    /* grid-area: main-img; */
+    width: 100%;
+    height: 468px;
+    left: 0px;
+    /* background: url(hackerman.jpg); */
+    background-repeat: no-repeat;
+    object-fit: fill;
+}
+
+.section-one {
+    width: 100%;
+    height: 1100px;
+}
+
+.online-onsite-above {
+    position: relative;
+    height: 100px;
+    width: 470px;
+    left: 620px;
+    bottom: 60px;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+.review-1 {
+    position: relative;
+    top: 100px;
+    left: 350px;
+    width: 451.54px;
+    height: 158px;
+}
+
+.review-1 img {
+    position: relative;
+    left: 1px;
+    top: 31px;
+    width: 62px;
+    height: 62px;
+    border-radius: 100%;
+}
+
+.review-1 p {
+    position: relative;
+    width: 370.54px;
+    height: 84px;
+    left: 35px;
+    top: 2px;
+    font-family: "Roboto";
+    font-style: italic;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    display: inline-block;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.review-1 h3 {
+    position: relative;
+    width: 250px;
+    height: 42px;
+    left: 106px;
+    top: 14px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+}
+
+.review-2 {
+    position: relative;
+    bottom: 65px;
+    left: 900px;
+    width: 451.54px;
+    height: 158px;
+}
+
+.review-2 img {
+    position: relative;
+    left: 1px;
+    top: 31px;
+    width: 62px;
+    height: 62px;
+    border-radius: 100%;
+    border: 2px solid black;
+}
+
+.review-2 p {
+    position: relative;
+    width: 370.54px;
+    height: 84px;
+    left: 31px;
+    top: 5px;
+    font-family: "Roboto";
+    font-style: italic;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    display: inline-block;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.review-2 h3 {
+    position: relative;
+    width: 250px;
+    height: 42px;
+    left: 106px;
+    top: 14px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+}
+
+.popular-challenges {
+    position: relative;
+    width: 680px;
+    height: 42px;
+    left: 470px;
+    top: 65px;
+    font-family: "Roboto";
+    font-style: normal !important;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #000000;
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.challenges {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    position: relative;
+    left: 380px;
+    top: 100px;
+    width: 900px;
+    height: 350px;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    position: relative;
+    left: 135px;
+    top: 100px;
+    width: 1400px;
+    height: 446px;
+}
+
+.challenges h3 {
+    font-weight: 400;
+    font-size: 1.1rem;
+    text-align: left;
+    margin-left: 10px;
+}
+
+.challenges-small {
+    font-size: 0.6rem;
+    margin-left: 100px;
+}
+
+.challenges-paragraph {
+    font-size: 0.8rem;
+    margin: 10px;
+    text-align: left;
+}
+
+.challenges-button {
+    position: relative;
+    bottom: 15px;
+    left: 16px;
+    font-size: 0.65rem;
+    padding: 8px 20px;
+    color: White;
+    background-color: #e3170a;
+    border: none;
+    border-radius: 4px;
+    margin-left: 150px;
+    margin-bottom: 6px;
+    cursor: pointer;
+}
+
+.cards h5 {
+    position: relative;
+    width: 60px;
+    height: 16px;
+    left: 45px;
+    top: 46px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: right;
+    color: #000000;
+    display: inline-block;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.card {
+    width: 280px;
+    height: 330px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    margin: 10px;
+    border-radius: 5px 5px;
+    margin-bottom: 50px;
+}
+
+.challenge-h3 {
+    font-weight: 400;
+    font-size: 1.1rem;
+    text-align: left;
+    margin-left: 10px;
+    margin-top: 4px;
+}
+
+.card-img {
+    width: 280px;
+    height: 170px;
+    border-radius: 5px 5px 0 0;
+    margin: 0;
+}
+
+.stars {
+    width: 10px;
+    margin: 3px;
+}
+
+.small {
+    font-size: 0.6rem;
+    margin-left: 100px;
+}
+
+.challenge-p {
+    font-size: 0.8rem;
+    margin: 10px;
+    text-align: left;
+}
+
+.challenge-p {
+    font-size: 0.65rem;
+    padding: 8px 20px;
+    color: White;
+    background-color: #e3170a;
+    border: none;
+    border-radius: 4px;
+    margin-left: 150px;
+    margin-bottom: 6px;
+    cursor: pointer;
+}
+
+.challenge-small {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: right;
+}
+
+.online-onsite {
+    position: relative;
+    height: 70px;
+    width: 470px;
+    left: 600px;
+    top: 140px;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+.onsite {
+    background-color: #e3170a;
+    border: none;
+    border-radius: 4px;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 10px 30px;
+    margin: 20px 0px;
+    cursor: pointer;
+    width: 220px;
+    height: 60px;
+    color: #fff;
+}
+
+.online {
+    background-color: #8acfe5;
+    border: none;
+    border-radius: 4px;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 10px 30px;
+    margin: 20px 0px;
+    cursor: pointer;
+    width: 220px;
+    height: 60px;
+    color: #011827;
+}
+
+.full-story {
+    background-color: #011827;
+    color: white;
+    margin: auto;
+    height: 400px;
+    width: 100%;
+}
+
+.fullstory-paragraph {
+    position: relative;
+    top: 90px;
+    left: 620px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    text-align: center;
+    width: 440px;
+}
+
+.fullstory-button {
+    position: relative;
+    top: 100px;
+    left: 755px;
+    color: #8acfe5;
+    background-color: #011827;
+    border: 2px solid #8acfe5;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    padding: 10px 30px;
+    cursor: pointer;
+}
+
+.section-two {
+    width: 100%;
+    height: 1100px;
+}
+
+.section-two-container {
+    display: grid;
+    grid-template-columns: 640px 640px;
+    grid-template-rows: 460px 460px;
+    width: 1280px;
+    height: 920px;
+    position: relative;
+    left: 185px;
+}
+
+.nasa {
+    width: 640px;
+    height: 460px;
+}
+
+.book {
+    width: 640px;
+    height: 460px;
+}
+
+.sectionTwo-h3 {
+    position: relative;
+    top: 70px;
+    left: 125px;
+    width: 400px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    margin-top: 0px;
+    color: #000000;
+}
+
+.sectionTwo-p {
+    position: relative;
+    width: 416px;
+    height: 112px;
+    left: 130px;
+    top: 50px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.sectionTwo-button {
+    position: relative;
+    top: 10px;
+    left: 210px;
+    background-color: #e3170a;
+    color: white;
+    border: none;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    margin-top: -20px;
+    width: 200px;
+    height: 40px;
+    cursor: pointer;
+    font-weight: 400;
+    margin: 15px 0px 40px 15px;
+}
+
+.play {
+    width: 640px;
+    height: 460px;
+}
+
+.programmer {
+    width: 640px;
+    height: 460px;
+}
+
+.footer-container {
+    background-color: #011827;
+    color: white;
+    margin: auto;
+    height: 400px;
+    width: 100%;
+}
+
+.footer-container aside {
+    position: relative;
+    top: 60px;
+    left: 350px;
+    padding: 50px;
+    width: 300px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #ffffff;
+}
+
+.footer-container .site-map {
+    position: relative;
+    bottom: 185px;
+    left: 800px;
+    padding: 50px;
+    width: 160px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #ffffff;
+    margin: 0px;
+}
+
+.footer-container .social-media {
+    position: relative;
+    bottom: 490px;
+    left: 1000px;
+    padding: 50px;
+    width: 160px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #ffffff;
+    margin: 0px;
+    text-align: left;
+}
+
+.footer-container a {
+    color: white;
+    text-decoration: none;
+    text-align: left;
+}
+
+.footer-container ul {
+    color: white;
+    list-style-type: none;
+    text-align: left;
+    padding-left: 0px;
+}
+
+@media screen and (max-width: 550px) {
+    .body {
+        width: 100%;
+    }
+    .nav {
+        width: 100%;
+        height: 144px;
+        left: 0px;
+        top: 0px;
+        background: #011827;
+    }
+    .hamburger-menu {
+        display: flex;
+        flex-direction: column;
+        width: 60px;
+        height: 30px;
+    }
+    .hamburger-menu .line1 {
+        position: absolute;
+        width: 51px;
+        height: 0px;
+        left: 420px;
+        top: 34px;
+        border: 6px solid #ffffff;
+        border-radius: 8%;
+    }
+    .hamburger-menu .line2 {
+        position: absolute;
+        width: 51px;
+        height: 0px;
+        left: 420px;
+        top: 55px;
+        border: 6px solid #ffffff;
+        border-radius: 8%;
+    }
+    .hamburger-menu .line3 {
+        position: absolute;
+        width: 51px;
+        height: 0px;
+        left: 420px;
+        top: 75px;
+        border: 6px solid #ffffff;
+        border-radius: 8%;
+    }
+    .nav-logo {
+        position: relative;
+        top: 25px;
+        left: 30px;
+    }
+    .nav-logo-text {
+        position: absolute;
+        top: 70px;
+        left: 40px;
+    }
+    .nav a {
+        visibility: hidden;
+    }
+    .nav h1 {
+        position: absolute;
+        width: 78px;
+        height: 84px;
+        left: 168px;
+        top: 25px;
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 28px;
+        color: #ffffff;
+    }
+    .img-container {
+        width: 100%;
+    }
+    .main-img {
+        position: absolute;
+        width: 100vw;
+        height: 274px;
+        left: 0px;
+        top: 144px;
+    }
+    .section-one {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 1600px;
+    }
+    .section-one .onsite {
+        position: relative;
+        top: 380px;
+        right: 550px;
+        background: #8acfe6;
+        border-radius: 4px;
+        color: #011827;
+    }
+    .section-one .online {
+        position: relative;
+        top: 440px;
+        right: 774px;
+        background: #fff;
+        border-radius: 4px;
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+        text-decoration-line: underline;
+        color: #36769d;
+    }
+    .section-one .review-1 {
+        position: absolute;
+        top: 450px;
+        left: 10px;
+        width: 50px;
+        height: 158px;
+    }
+    .review-1 img {
+        position: relative;
+        left: 25px;
+        top: 200px;
+        width: 62px;
+        height: 62px;
+        border-radius: 100%;
+    }
+    .review-1 p {
+        position: relative;
+        width: 250px;
+        height: 84px;
+        left: 108px;
+        top: 110px;
+        font-family: "Roboto";
+        font-style: italic;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 28px;
+        color: #000000;
+        display: inline-block;
+        margin-block-start: 0px;
+        margin-block-end: 0px;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+    }
+    .review-1 h3 {
+        position: relative;
+        width: 250px;
+        height: 42px;
+        left: 106px;
+        top: 100px;
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 21px;
+        color: #000000;
+    }
+    .review-2 {
+        position: relative;
+        bottom: 65px;
+        left: 0px;
+        width: 451.54px;
+        height: 158px;
+        visibility: hidden;
+    }
+    .section-two-container {
+        display: grid;
+        grid-template-columns: 640px 640px;
+        grid-template-rows: 460px 460px;
+        width: 1280px;
+        height: 920px;
+        position: relative;
+        left: 185px;
+    }
+    .section-one .popular-challenges {
+        position: relative;
+        width: 474px;
+        height: 84px;
+        left: -36px;
+        top: 110px;
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 38px;
+        text-align: center;
+        color: #000000;
+        display: block;
+        margin-block-start: 0px;
+        margin-block-end: 0px;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+    }
+    .challenges {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        position: relative;
+        left: 200px;
+        top: 0px;
+        width: 900px;
+        height: 350px;
+    }
+    .challenges .cards {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 10px;
+        position: relative;
+        left: 135px;
+        top: 100px;
+        width: 1400px;
+        height: 446px;
+        overflow-y: scroll;
+    }
+    .challenges h3 {
+        font-weight: 400;
+        font-size: 1.1rem;
+        text-align: left;
+        margin-left: 10px;
+    }
+    .challenges-small {
+        font-size: 0.6rem;
+        margin-left: 100px;
+    }
+    .challenges-paragraph {
+        font-size: 0.8rem;
+        margin: 10px;
+        text-align: left;
+    }
+    .challenges-button {
+        position: relative;
+        bottom: 15px;
+        left: 16px;
+        font-size: 0.65rem;
+        padding: 8px 20px;
+        color: White;
+        background-color: #e3170a;
+        border: none;
+        border-radius: 4px;
+        margin-left: 150px;
+        margin-bottom: 6px;
+        cursor: pointer;
+    }
+    .online-onsite {
+        position: absolute;
+        height: 70px;
+        width: 470px;
+        left: 700px;
+        top: 1200px;
+        border-radius: 4px;
+        display: inline-block;
+    }
+    .online-onsite .onsite {
+        position: relative;
+        top: 380px;
+        right: 550px;
+        background: #8acfe6;
+        border-radius: 4px;
+        color: #011827;
+    }
+    .online-onsite .online {
+        position: relative;
+        top: 440px;
+        right: 774px;
+        background: #fff;
+        border-radius: 4px;
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+        text-decoration-line: underline;
+        color: #36769d;
+    }
+    .full-story {
+        background-color: #011827;
+        color: white;
+        margin: auto;
+        height: 400px;
+        width: 100%;
+    }
+    .fullstory-paragraph {
+        top: 95px;
+        left: 44px;
+        width: 400px;
+        color: #fff;
+        border-radius: 4px;
+        font-size: 0.9rem;
+        font-weight: bold;
+        padding: 10px 30px;
+        cursor: pointer;
+    }
+    .fullstory-button {
+        position: absolute;
+        top: 2000px;
+        left: 190px;
+        color: #8acfe5;
+        background-color: #011827;
+        border: 2px solid #8acfe5;
+        border-radius: 4px;
+        font-size: 0.9rem;
+        font-weight: bold;
+        padding: 10px 30px;
+        cursor: pointer;
+    }
+    .section-two {
+        width: 100%;
+        height: 1600px;
+    }
+    .section-two .nasa-mobile {
+        position: relative;
+        top: 0px;
+        right: 185px;
+        width: 100vw;
+        height: 300px;
+    }
+    .section-two .book {
+        position: absolute;
+        top: 325px;
+        right: 945px;
+        width: 100vw;
+        height: 300px;
+    }
+    .section-two .play {
+        position: absolute;
+        top: 1080px;
+        right: 960px;
+        width: 100vw;
+        height: 300px;
+    }
+    .programmer-mobile {
+        position: relative;
+        top: 760px;
+        right: 825px;
+        width: 100vw;
+        height: 300px;
+    }
+    .sectionTwo-h3 {
+        position: relative;
+        top: 70px;
+        left: 125px;
+        width: 400px;
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 38px;
+        margin-top: 0px;
+        color: #000000;
+    }
+    .sectionTwo-p {
+        position: relative;
+        width: 416px;
+        height: 112px;
+        left: 130px;
+        top: 50px;
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 28px;
+        color: #000000;
+    }
+    .sectionTwo-button {
+        position: relative;
+        top: 10px;
+        left: 210px;
+        background-color: #e3170a;
+        color: #fff;
+        border: none;
+        text-decoration: none;
+        border-radius: 4px;
+        font-size: 0.9rem;
+        font-weight: bold;
+        margin-top: -20px;
+        width: 200px;
+        height: 40px;
+        cursor: pointer;
+        font-weight: 400;
+        margin: 15px 0px 40px 15px;
+    }
+    .play {
+        width: 640px;
+        height: 460px;
+    }
+    .programmer {
+        width: 640px;
+        height: 460px;
+    }
+    .footer-container {
+        background-color: #011827;
+        color: white;
+        margin: auto;
+        height: 590px;
+        width: 100%;
+    }
+    .footer-container aside {
+        position: relative;
+        top: 0px;
+        left: 0px;
+        padding: 50px;
+        width: 350px;
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 21px;
+        color: #ffffff;
+    }
+    .footer-container .site-map {
+        position: relative;
+        bottom: 100px;
+        left: 0px;
+        padding: 50px;
+        width: 160px;
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 21px;
+        color: #ffffff;
+        margin: 0px;
+    }
+    .footer-container .social-media {
+        position: relative;
+        bottom: 200px;
+        left: 0px;
+        padding: 50px;
+        width: 160px;
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 21px;
+        color: #ffffff;
+        margin: 0px;
+        text-align: left;
+    }
+    .footer-container a {
+        color: white;
+        text-decoration: none;
+        text-align: left;
+    }
+    .footer-container ul {
+        color: white;
+        list-style-type: none;
+        text-align: left;
+        padding-left: 0px;
+    }
+}
