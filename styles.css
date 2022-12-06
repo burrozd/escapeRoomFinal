@@ -8,7 +8,7 @@ body {
 
 .nav {
     /* grid-area: Nav; */
-    width: 100%;
+    width: 100vw;
     height: 216px;
     left: 0px;
     top: 0px;
@@ -83,11 +83,12 @@ a:hover {
 .main-img {
     /* grid-area: main-img; */
     width: 100%;
-    height: 468px;
+    min-height: 40vh;
+    object-fit: cover;
     left: 0px;
     /* background: url(hackerman.jpg); */
     background-repeat: no-repeat;
-    object-fit: fill;
+    /* object-fit: fill; */
 }
 
 .section-one {
@@ -407,7 +408,7 @@ a:hover {
     color: white;
     margin: auto;
     height: 400px;
-    width: 100%;
+    width: 100vw;
 }
 
 .fullstory-paragraph {
@@ -669,7 +670,7 @@ a:hover {
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
-        width: 100%;
+        width: 100vw;
         height: 1600px;
     }
     .section-one .onsite {
@@ -892,7 +893,7 @@ a:hover {
         cursor: pointer;
     }
     .section-two {
-        width: 100%;
+        width: 100vw;
         height: 1600px;
     }
     .section-two .nasa-mobile {
@@ -978,9 +979,8 @@ a:hover {
     .footer-container {
         background-color: #011827;
         color: white;
-        margin: auto;
-        height: 590px;
-        width: 100%;
+        height: 400px;
+        width: 100vw;
     }
     .footer-container aside {
         position: relative;
