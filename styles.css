@@ -590,6 +590,15 @@ a:hover {
     padding-left: 0px;
 }
 
+
+/* 
+
+
+Mobile
+
+
+ */
+
 @media screen and (max-width: 550px) {
     .body {
         width: 100vw;
@@ -619,6 +628,11 @@ a:hover {
         flex-direction: column;
         width: 60px;
         height: 30px;
+    }
+    #hamburgerButton {
+        background: transparent;
+        border: none !important;
+        font-size: 0;
     }
     .hamburger-menu .line1 {
         position: absolute;
