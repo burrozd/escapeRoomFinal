@@ -633,7 +633,29 @@ Mobile
         background: transparent;
         border: none !important;
         font-size: 0;
+        border: 2px solid black;
     }
+    /* 
+
+
+
+ */
+    /* .menuPopup {} */
+    .menu-modal {
+        background-color: red;
+        width: 90vw;
+        height: 90vh;
+        display: none;
+    }
+    .menu-online {}
+    .menu-onsite {}
+    .menu-story {}
+    .menu-contact {}
+    /* 
+
+
+
+ */
     .hamburger-menu .line1 {
         position: absolute;
         width: 51px;
