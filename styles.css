@@ -647,10 +647,18 @@ Mobile
         height: 90vh;
         display: none;
     }
-    .menu-online {}
-    .menu-onsite {}
-    .menu-story {}
-    .menu-contact {}
+    .menu-online {
+        display: none;
+    }
+    .menu-onsite {
+        display: none;
+    }
+    .menu-story {
+        display: none;
+    }
+    .menu-contact {
+        display: none;
+    }
     /* 
 
 
