@@ -243,7 +243,8 @@ a:hover {
     height: 350px;
 }
 
-.cards {
+
+/* .cards {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -253,7 +254,7 @@ a:hover {
     top: 100px;
     width: 1400px;
     height: 446px;
-}
+} */
 
 .challenges h3 {
     font-weight: 400;
@@ -639,8 +640,9 @@ Mobile
 
 
 
- */
-    /* .menuPopup {} */
+ 
+  
+
     .menu-modal {
         background-color: red;
         width: 90vw;
@@ -659,7 +661,7 @@ Mobile
     .menu-contact {
         display: none;
     }
-    /* 
+
 
 
 
@@ -734,18 +736,27 @@ Mobile
         width: 100vw;
         height: 1600px;
     }
-    .section-one .onsite {
+    .online-onsite-above {
         position: relative;
-        top: 380px;
-        right: 500px;
+        height: 175px;
+        width: 470px;
+        left: 0px;
+        top: 362px;
+        border-radius: 4px;
+        display: inline-block;
+    }
+    .section-one .onsite {
+        position: absolute;
+        top: 10px;
+        left: 135px;
         background: #8acfe6;
         border-radius: 4px;
         color: #011827;
     }
     .section-one .online {
-        position: relative;
-        top: 440px;
-        right: 720px;
+        position: absolute;
+        top: 75px;
+        left: 140px;
         background: #fff;
         border-radius: 4px;
         font-family: "Roboto";
@@ -763,6 +774,25 @@ Mobile
         left: 10px;
         width: 50px;
         height: 158px;
+    }
+    .section-one .popular-challenges {
+        position: relative;
+        width: 474px;
+        height: 84px;
+        left: -36px;
+        top: 110px;
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 38px;
+        text-align: center;
+        color: #000000;
+        display: block;
+        margin-block-start: 0px;
+        margin-block-end: 0px;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
     }
     .review-1 img {
         position: relative;
@@ -811,7 +841,7 @@ Mobile
         height: 158px;
         visibility: hidden;
     }
-    .section-two-container {
+    /*    .section-two-container {
         display: grid;
         grid-template-columns: 640px 640px;
         grid-template-rows: 460px 460px;
@@ -819,35 +849,25 @@ Mobile
         height: 920px;
         position: relative;
         left: 185px;
-    }
-    .section-one .popular-challenges {
-        position: relative;
-        width: 474px;
-        height: 84px;
-        left: -36px;
-        top: 110px;
-        font-family: "Roboto";
-        font-style: normal;
-        font-weight: 400;
-        font-size: 18px;
-        line-height: 38px;
-        text-align: center;
-        color: #000000;
-        display: block;
-        margin-block-start: 0px;
-        margin-block-end: 0px;
-        margin-inline-start: 0px;
-        margin-inline-end: 0px;
-    }
+    } */
     .challenges {
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
         position: relative;
-        left: 200px;
+        left: 2px;
         top: 0px;
-        width: 900px;
+        width: 100vw;
         height: 350px;
+        overflow-x: scroll;
+    }
+    .cards {
+        width: 280px;
+        height: 330px;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        margin: 10px;
+        border-radius: 5px 5px;
+        margin-bottom: 50px;
     }
     .challenges .cards {
         display: flex;
@@ -897,7 +917,7 @@ Mobile
         left: 700px;
         top: 1200px;
         border-radius: 4px;
-        display: inline-block;
+        display: none;
     }
     .online-onsite .onsite {
         position: relative;
@@ -953,6 +973,14 @@ Mobile
         padding: 10px 30px;
         cursor: pointer;
     }
+    .section-two-container {
+        display: grid;
+        grid-template-columns: 100vw;
+        width: 550px;
+        height: 920px;
+        position: relative;
+        left: 0px;
+    }
     .section-two {
         width: 100vw;
         height: 1600px;
@@ -960,28 +988,34 @@ Mobile
     .section-two .nasa-mobile {
         position: relative;
         top: 0px;
-        right: 185px;
+        right: 0px;
         width: 100vw;
         height: 300px;
     }
+    .nasa {
+        width: 100vw;
+        height: 460px;
+        position: absolute;
+        left: 0px;
+    }
     .section-two .book {
         position: absolute;
-        top: 325px;
-        right: 945px;
+        top: 280px;
+        right: 50px;
         width: 100vw;
         height: 300px;
     }
     .section-two .play {
         position: absolute;
-        top: 1080px;
-        right: 960px;
+        top: 1060px;
+        right: 50px;
         width: 100vw;
         height: 300px;
     }
     .programmer-mobile {
         position: relative;
-        top: 760px;
-        right: 825px;
+        top: 0px;
+        right: 2px;
         width: 100vw;
         height: 300px;
     }
@@ -1034,8 +1068,11 @@ Mobile
         height: 460px;
     }
     .programmer {
-        width: 640px;
+        width: 100vw;
         height: 460px;
+        position: absolute;
+        top: 680px;
+        left: 2px;
     }
     .footer-container {
         background-color: #011827;
