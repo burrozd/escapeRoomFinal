@@ -28,7 +28,7 @@ body {
 .nav-logo-text {
     position: absolute;
     top: 75px;
-    left: 40px;
+    left: 58px;
 }
 
 .navbar {
@@ -75,6 +75,15 @@ a:hover {
 
 .navbar li {
     list-style-type: none;
+}
+
+.menuPopup {
+    display: none;
+}
+
+.popupButton {
+    background-color: #011827;
+    border: none;
 }
 
 
@@ -663,16 +672,16 @@ Mobile
         border: 6px solid #ffffff;
         border-radius: 8%;
     }
-    .nav .popupButton {
+    .popupButton {
         height: 80px;
         width: 105px;
         position: absolute;
         right: 45px;
         top: 22px;
         background: transparent;
-        /* border: none !important; */
-        border: 1px solid red;
-        z-index: 2;
+        border: none !important;
+        border: 1px solid #011827;
+        z-index: 4;
     }
     .menuPopup {
         background-color: #011827;
@@ -682,7 +691,6 @@ Mobile
         top: 25px;
         left: 24px;
         z-index: 4;
-        border: 2px solid red;
         display: none;
     }
     .closeButton {
@@ -693,7 +701,7 @@ Mobile
         top: 2px;
         background: transparent;
         /* border: none !important; */
-        border: 1px solid red;
+        border: 1px solid #011827;
         z-index: 10;
     }
     .menuPopup .popupClose {
