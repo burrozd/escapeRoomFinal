@@ -636,36 +636,95 @@ Mobile
         font-size: 0;
         border: 2px solid black;
     }
-    /* 
-
-
-
- 
-  
-
-    .menu-modal {
-        background-color: red;
-        width: 90vw;
-        height: 90vh;
+    .nav .popupButton {
+        height: 80px;
+        width: 105px;
+        position: absolute;
+        right: 45px;
+        top: 22px;
+        background: transparent;
+        /* border: none !important; */
+        border: 1px solid red;
+        z-index: 2;
+    }
+    .menuPopup {
+        background-color: #011827;
+        width: 92vw;
+        height: 94vh;
+        position: fixed;
+        top: 25px;
+        left: 24px;
+        z-index: 4;
+        border: 2px solid red;
         display: none;
     }
-    .menu-online {
-        display: none;
+    .menuPopup .popupClose {
+        position: absolute;
+        right: 20px;
+        top: 20px;
+        z-index: 5;
+        font-size: 45px;
+        font-weight: 600;
+        display: inline-block;
+        transform: rotate(91deg);
+        background-color: #011827;
+        border: none;
     }
-    .menu-onsite {
-        display: none;
+    .menuPopup .popupClose:before,
+    .popupClose:after {
+        position: absolute;
+        left: 15px;
+        content: " ";
+        height: 33px;
+        width: 2px;
+        background-color: #fff;
     }
-    .menu-story {
-        display: none;
+    .popupClose:before {
+        transform: rotate(45deg);
     }
-    .menu-contact {
-        display: none;
+    .popupClose:after {
+        transform: rotate(-45deg);
     }
-
-
-
-
- */
+    .menuPopup .pop-online {
+        color: #ffffff;
+        position: absolute;
+        width: 230px;
+        height: 42px;
+        left: 135px;
+        top: 220px;
+        font-size: xx-large;
+        z-index: 5;
+    }
+    .menuPopup .pop-onsite {
+        color: #ffffff;
+        position: absolute;
+        width: 230px;
+        height: 42px;
+        left: 135px;
+        top: 320px;
+        font-size: xx-large;
+        z-index: 5;
+    }
+    .menuPopup .pop-story {
+        color: #ffffff;
+        position: absolute;
+        width: 230px;
+        height: 42px;
+        left: 135px;
+        top: 420px;
+        font-size: xx-large;
+        z-index: 5;
+    }
+    .menuPopup .pop-contact {
+        color: #ffffff;
+        position: absolute;
+        width: 230px;
+        height: 42px;
+        left: 135px;
+        top: 520px;
+        font-size: xx-large;
+        z-index: 5;
+    }
     .hamburger-menu .line1 {
         position: absolute;
         width: 51px;
