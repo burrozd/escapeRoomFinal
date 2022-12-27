@@ -690,8 +690,24 @@ Mobile
         position: fixed;
         top: 25px;
         left: 24px;
-        z-index: 4;
+        z-index: 8;
         display: none;
+        opacity: 0;
+        animation-name: showMenu;
+        animation-duration: 0.48s;
+        /* transition: opacity 20s; */
+    }
+    .popped {
+        opacity: 1;
+        display: flex;
+    }
+    @keyframes showMenu {
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1;
+        }
     }
     .closeButton {
         height: 65px;
