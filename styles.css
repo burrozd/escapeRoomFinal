@@ -636,6 +636,33 @@ Mobile
         font-size: 0;
         border: 2px solid black;
     }
+    .hamburger-menu .line1 {
+        position: absolute;
+        width: 51px;
+        height: 0px;
+        left: 420px;
+        top: 34px;
+        border: 6px solid #ffffff;
+        border-radius: 8%;
+    }
+    .hamburger-menu .line2 {
+        position: absolute;
+        width: 51px;
+        height: 0px;
+        left: 420px;
+        top: 55px;
+        border: 6px solid #ffffff;
+        border-radius: 8%;
+    }
+    .hamburger-menu .line3 {
+        position: absolute;
+        width: 51px;
+        height: 0px;
+        left: 420px;
+        top: 75px;
+        border: 6px solid #ffffff;
+        border-radius: 8%;
+    }
     .nav .popupButton {
         height: 80px;
         width: 105px;
@@ -657,6 +684,17 @@ Mobile
         z-index: 4;
         border: 2px solid red;
         display: none;
+    }
+    .closeButton {
+        height: 65px;
+        width: 70px;
+        position: absolute;
+        right: 10px;
+        top: 2px;
+        background: transparent;
+        /* border: none !important; */
+        border: 1px solid red;
+        z-index: 10;
     }
     .menuPopup .popupClose {
         position: absolute;
@@ -724,33 +762,6 @@ Mobile
         top: 520px;
         font-size: xx-large;
         z-index: 5;
-    }
-    .hamburger-menu .line1 {
-        position: absolute;
-        width: 51px;
-        height: 0px;
-        left: 420px;
-        top: 34px;
-        border: 6px solid #ffffff;
-        border-radius: 8%;
-    }
-    .hamburger-menu .line2 {
-        position: absolute;
-        width: 51px;
-        height: 0px;
-        left: 420px;
-        top: 55px;
-        border: 6px solid #ffffff;
-        border-radius: 8%;
-    }
-    .hamburger-menu .line3 {
-        position: absolute;
-        width: 51px;
-        height: 0px;
-        left: 420px;
-        top: 75px;
-        border: 6px solid #ffffff;
-        border-radius: 8%;
     }
     .nav-logo {
         position: relative;
