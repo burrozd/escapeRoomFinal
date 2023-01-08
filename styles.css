@@ -35,11 +35,11 @@ body {
     display: flex;
     position: relative;
     top: 36px;
-    left: 330px;
+    left: 0px;
     margin-top: 0px;
     margin-bottom: -10px;
     justify-content: space-evenly;
-    width: 1000px;
+    width: 100vw;
 }
 
 .nav h1 {
@@ -113,16 +113,23 @@ a:hover {
     position: relative;
     height: 100px;
     width: 470px;
-    left: 620px;
+    left: 38vw;
     bottom: 60px;
     border-radius: 4px;
     display: inline-block;
 }
 
+.review {
+    position: relative;
+    left: 16vw;
+    width: 70vw;
+    height: 36vh;
+}
+
 .review-1 {
     position: relative;
     top: 100px;
-    left: 350px;
+    left: 3vw;
     width: 451.54px;
     height: 158px;
 }
@@ -171,8 +178,8 @@ a:hover {
 
 .review-2 {
     position: relative;
-    bottom: 65px;
-    left: 900px;
+    bottom: 61px;
+    left: 38vw;
     width: 451.54px;
     height: 158px;
 }
@@ -246,7 +253,7 @@ a:hover {
     flex-direction: row;
     justify-content: space-evenly;
     position: relative;
-    left: 380px;
+    left: 24vw;
     top: 100px;
     width: 900px;
     height: 350px;
@@ -381,9 +388,9 @@ a:hover {
 
 .online-onsite {
     position: relative;
-    height: 70px;
-    width: 470px;
-    left: 600px;
+    height: 100px;
+    width: 463px;
+    left: 37vw;
     top: 140px;
     border-radius: 4px;
     display: inline-block;
@@ -428,20 +435,20 @@ a:hover {
 .fullstory-paragraph {
     position: relative;
     top: 90px;
-    left: 620px;
+    left: 39vw;
     font-family: "Roboto";
     font-style: normal;
     font-weight: 400;
     font-size: 22px;
     line-height: 33px;
     text-align: center;
-    width: 440px;
+    width: 26vw;
 }
 
 .fullstory-button {
     position: relative;
     top: 100px;
-    left: 755px;
+    left: 47vw;
     color: #8acfe5;
     background-color: #011827;
     border: 2px solid #8acfe5;
@@ -464,7 +471,7 @@ a:hover {
     width: 1280px;
     height: 920px;
     position: relative;
-    left: 185px;
+    left: 13vw;
 }
 
 .nasa {
@@ -544,10 +551,10 @@ a:hover {
 
 .footer-container aside {
     position: relative;
-    top: 60px;
-    left: 350px;
-    padding: 50px;
-    width: 300px;
+    top: 13vh;
+    left: 13vw;
+    padding: 0px;
+    width: 20vw;
     font-family: "Roboto";
     font-style: normal;
     font-weight: 400;
@@ -558,10 +565,10 @@ a:hover {
 
 .footer-container .site-map {
     position: relative;
-    bottom: 185px;
-    left: 800px;
-    padding: 50px;
-    width: 160px;
+    bottom: 3vh;
+    left: 62vw;
+    padding: 0px;
+    width: 7vw;
     font-family: "Roboto";
     font-style: normal;
     font-weight: 400;
@@ -573,10 +580,10 @@ a:hover {
 
 .footer-container .social-media {
     position: relative;
-    bottom: 490px;
-    left: 1000px;
-    padding: 50px;
-    width: 160px;
+    bottom: 24vh;
+    left: 75vw;
+    padding: 0px;
+    width: 7vw;
     font-family: "Roboto";
     font-style: normal;
     font-weight: 400;
